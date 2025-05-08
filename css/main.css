@@ -128,7 +128,7 @@ a{color: inherit}
 .w-34p{width:34%;}
 
 /* Main Title & Advertisement */
-#m_text_re { width: 800px; margin: 0 auto 20px; text-align: center; }
+#m_text_re { width: 800px; margin: 30px auto; text-align: center; }
 #m_text_re .line1 { font-family: "Do Hyeon", sans-serif; font-size: 40px; font-weight: 400; color: #0F0F0F; }
 #m_text_re .line2 { font-family: "Do Hyeon", sans-serif; font-size: 35px; font-weight: 380; color: #1F503D; }
 #m_text_re .line3 { font-family: "Do Hyeon", sans-serif; font-size: 30px; font-weight: 350; color: #0F0F0F; }
@@ -136,7 +136,16 @@ a{color: inherit}
 
 
 /* 메인 새롭게 */
-#main_visual_re {overflow: hidden; position:relative;width:1000px; height:800px;}
+#main_visual_re {
+	overflow: hidden;
+	position: relative;
+	width: 1300px;
+	height: 700px;
+	text-align: center;
+	margin : 0 auto;
+  }
+
+/* #main_visual_re {overflow: hidden; position:relative;width:1000px; height:800px;} */
 /* #main_visual_re .bx-visual-wrap { position:absolute; top:0; left:50%; width:2000px; height:750px; margin-left:-1000px;}
 #main_visual_re .bx-visual-wrap .bx-slider {}
 #main_visual_re .bx-visual-wrap .bx-slider li {height: 700px; position: relative; overflow: hidden;}
