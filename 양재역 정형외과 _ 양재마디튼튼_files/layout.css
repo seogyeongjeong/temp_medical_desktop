@@ -50,6 +50,7 @@
 #header .head_login i{font-size: 20px;}
 
 #header .logo {height: 90px; display:flex; align-items: center; justify-content: space-between;}
+#header .logo img {max-height: 100%; height: 90px; display: block;}
 #header .tel {position:absolute; right:0; top:16px;}
 
 #header .head_menu{position: relative; max-width:1400px; margin:0 auto;}
