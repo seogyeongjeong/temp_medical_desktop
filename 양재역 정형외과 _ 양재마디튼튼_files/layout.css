@@ -42,6 +42,7 @@
 
 #header{width: 100%;position: fixed;top: 0;z-index: 999; transition: 0.3s all; background:#fff; transition: 0.3s;}
 /* #header.active {transform: translateY(-116px);} */
+/* Pass */
 #header:before {content:''; display:block; position:absolute; left:0; top:90px; right:0; height:1px; background:#eee;}
 #header .head_login_wrap{display: flex; align-items: center;}
 #header .head_login{display: flex;justify-content: flex-end;padding: 7px 10px; border: 1px solid #333; border-radius: 30px; margin-right: 25px;}
