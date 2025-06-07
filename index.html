@@ -180,10 +180,156 @@ $(function() {
 
 
 <div class="main">
+
+  <div class="main-block-container">
+    
+    <!-- Block 1 -->
+    <div class="main-block active">
+      <div class="static-bg">
+        <img src="./photos_new/main_photo_1.png" alt="메인화면1">
+      </div>
+      <section class="main1 page">
+        <div class="txt">
+          <span class="t6">두통 어지럼증 이석증 자율신경저림</span>
+          <span class="t6">감각이상 경동맥 뇌혈관</span>
+          <span class="t6">만성통증 근골격계</span>
+          <span class="t2">-편안하고 고통없는 일상으로 되돌아 가는 곳</span>
+          <span class="t3">현직 전문의들을 교육중인<br/> 서울아산병원 출신<br/> 25년차 신경과 전문의가<br/> 과잉없이 정확하게<br/> 진단하고 치료합니다</span>
+          <span class="t5">두통 어지럼증 등 신경과 치료 <strong data-count="30000" class="counter-alt">30,000</strong>례 이상</span>
+          <span class="t5">근골격계 통증 치료 <strong data-count="30000" class="counter-alt">30,000</strong>례 이상</span>
+          <span class="t5">의사 대상 교육 <strong data-count="30000" class="counter-alt">30,000</strong>례 이상</span>
+        </div>
+      </section>
+      <script>
+          jQuery(document).ready(function($) {
+              $('[data-count]').each(function() {
+                  $(this).prop('Counter', 0).animate({
+                      Counter: $(this).data('count')
+                  }, {
+                      duration: 2000,
+                      easing: 'swing',
+                      step: function(now) {
+                          $(this).text(Math.floor(now).toLocaleString());
+                      }
+                  });
+              });
+          });
+        </script>
+        <script src="./javascript/waypoints.min.js"></script>
+        <script src="./javascript/jquery.counterup.min.js"></script>
+    </div>
+
+    <!-- Block 2 -->
+    <div class="main-block">
+      <div class="static-bg">
+        <img src="./photos_new/main_photo_2.png" alt="메인화면2" style="opacity: 0.6;">
+      </div>
+      <section class="main1 page">
+        <div class="txt">
+          <span class="t1">"처음부터 끝까지 제가 직접 다 합니다"</span>
+          <span class="t2">검사 치료 모두 타인을 거치지 않고 제가 직접 합니다</span>
+          <span class="t2">MRI MRA 경동맥 초음파 근전도 등 모든 검사는 당일검사 직후 즉시판독˙즉시설명 합니다</span>
+          <span class="t2">설명 역시 제가 직접  환자분의 눈높이에 맞게 상세한 설명을 보장합니다</span>
+          <span class="t2">따라서 모든 과정에서 피드백이 계속 오고 갑니다</span>
+
+          <span class="t1">"정확하게 과잉없이"</span>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- Block 3 -->
+    <div class="main-block">
+  <div class="static-bg">
+    <img src="./photos_new/main_photo_3.png" alt="메인화면">
+  </div>
+
+  <section class="main1 education-slide">
+    <div class="slide-overlay">
+
+      <!-- 상단 타이틀 -->
+      <div class="slide-title">
+        <p>정종필 원장님</p>
+        <p>의사 교육 내용 및 번역서</p>
+      </div>
+
+      <!-- 첫 번째 반투명 박스 (그림 1~6) -->
+      <div class="book-box top-box">
+        <div class="book-item">
+          <img src="./photos_new/main_book01.png" alt="그림1">
+          <p>설명1</p>
+        </div>
+        <div class="book-item">
+          <img src="./photos_new/main_book02.png" alt="그림2">
+          <p>설명2</p>
+        </div>
+        <div class="book-item">
+          <img src="./photos_new/main_book03.png" alt="그림3">
+          <p>설명3</p>
+        </div>
+        <div class="book-item">
+          <img src="./photos_new/main_book04.png" alt="그림4">
+          <p>설명4</p>
+        </div>
+        <div class="book-item">
+          <img src="./photos_new/main_book05.png" alt="그림5">
+          <p>설명5</p>
+        </div>
+        <div class="book-item">
+          <img src="./photos_new/main_book06.png" alt="그림6">
+          <p>설명6</p>
+        </div>
+      </div>
+
+      <!-- 두 번째 반투명 박스 (그림 7~11 + 블로그 텍스트) -->
+      <div class="book-box bottom-box">
+        <div class="book-item">
+          <img src="./photos_new/main_book07.png" alt="그림7">
+          <p>설명7</p>
+        </div>
+        <div class="book-item">
+          <img src="./photos_new/main_book08.png" alt="그림8">
+          <p>설명8</p>
+        </div>
+        <div class="book-item">
+          <img src="./photos_new/main_book09.png" alt="그림9">
+          <p>설명9</p>
+        </div>
+        <div class="book-item">
+          <img src="./photos_new/main_book10.png" alt="그림10">
+          <p>설명10</p>
+        </div>
+        <div class="book-item">
+          <img src="./photos_new/main_book11.png" alt="그림11">
+          <p>설명11</p>
+        </div>
+
+        <!-- 블로그 안내 텍스트 -->
+        <div class="blog-note">
+          <p>더 많은<br>내용은<br>블로그 참조</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+  </div>
+
+<script>
+  const blocks = document.querySelectorAll('.main-block');
+  let current = 0;
+
+  setInterval(() => {
+    blocks[current].classList.remove('active');
+    current = (current + 1) % blocks.length;
+    blocks[current].classList.add('active');
+  }, 5000);
+</script>
+<!--   
   <div class="main-background-container">
-    <!-- <div class="static-bg"></div> -->
      <div class="static-bg">
-    <img src="./photos_new/url_photo5.png" alt="배경" />
+    <img src="./photos_new/main_photo_1.png" alt="메인화면" >
   </div>
       <section class="main1 page">
             <div class="txt wow fadeInup animated" style="visibility: visible; animation-name: fadeInup;">
@@ -192,7 +338,6 @@ $(function() {
                 <span class="t6">만성통증 근골격계</span>
                 <span class="t2">-편안하고 고통없는 일상으로 되돌아 가는 곳</span>
                 <span class="t3">현직 전문의들을 교육중인<br/> 서울아산병원 출신<br/> 25년차 신경과 전문의가<br/> 과잉없이 정확하게<br/> 진단하고 치료합니다</span>
-                <!-- <span class="t3">두통 어지럼증 등 신경과 치료 <span class="counter">30,000</span>례 이상</span> -->
                 <span class="t5">두통 어지럼증 등 신경과 치료 <strong data-count="30000" class="counter-alt">30,000</strong>례 이상</span>
                 <span class="t5">근골격계 통증 치료 <strong data-count="30000" class="counter-alt">30,000</strong>례 이상</span>
                 <span class="t5">의사 대상 교육 <strong data-count="30000" class="counter-alt">30,000</strong>례 이상</span>
@@ -215,7 +360,7 @@ $(function() {
         </script>
         <script src="./javascript/waypoints.min.js"></script>
         <script src="./javascript/jquery.counterup.min.js"></script>
-    </div>
+    </div> -->
 
 
 <section class="main2 page">
@@ -324,12 +469,19 @@ $(function() {
         <div class="inr">
             <div class="box1">
                 <h2 class="tit2 wow fadeInup" style="visibility: hidden; animation-name: none;">
-                    <span class="t1">ㅇㅇㅇ 원장님 소개 및 인사말</span>
+                    <span class="t1">정종필필 원장님 소개 및 인사말</span>
                 </h2>
                 <div class="img wow fadeInRight" style="visibility: hidden; animation-name: none;"><img src="./photos_new/profile1.png" alt=""></div>
                 <div class="txt wow fadeInup" style="visibility: hidden; animation-name: none;">
-                    <p>안녕하세요 ㅇㅇㅇ 원장입니다. </p>
-                    <p>28년전 처음 (이외 소개글)<br>
+                    <p>안녕하세요 정종필필 원장입니다. </p>
+                    <p>28년전 처음 서울아산병원에서 신경과에 입문한 후 이제 25년차 신경과 전문의가 되었습니다 <br>
+                    그동안 쉼 없이 진료하고 연구하여
+                    어느덧 현직 전문의들까지 교육하는 의사가 되었고 <br>
+                    의사대상 교육에 가장 많이 추천되는 신경과 개원의중 한명이 되었습니다  </p>
+                    <p>이런 모든 경력과 실력을 바탕으로<br>
+                    원인부터 체계적으로 찾아가며 정확하게 치료하여<br>
+                    저를 찾아 오시는 모든 분들의 일상이 평안해지도록 해 드리겠습니다
+                    <br>
                     </p>
 
                 </div>                <!-- <div class="img wow fadeInRight" data-wow-duration=".7s" data-wow-offset="150"><img src="http://www.yjmdtntnclinic.com/theme/nero/img/new/img02.png" alt=""></div>
